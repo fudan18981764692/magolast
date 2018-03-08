@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="css/register.css">
+
+</head>
+<body>
+    <div class="reg-header">
+        <a href=""><img src="img/logo.gif" alt=""></a>
+        <span></span>
+        <h2>会员注册</h2>
+    </div>
+    <div class="reg-content">
+        <div class="reg-bg">
+            <div class="register">
+                <ul class="reg-nav">
+                    <li class="on">芒果网会员 <span></span></li>
+                    <li>合作卡会员<span></span> </li>
+                </ul>
+                <div class="reg-input">
+                    <div class="from_line ">
+                        <label for="uname">用户名</label>
+                        <input  id="uname"   type="text" placeholder="请输入用户名"/>
+                        <div class="err uname">用户名是3-8位数字字母注册，请正确填写你的用户</div>
+                    </div>
+                    <div class="from_line ">
+                        <label for="upwd">登录密码</label>
+                        <input  id="upwd"   type="text" placeholder="请输入密码"/>
+                        <div class="err upwd">密码是3-8位数字</div>
+                    </div>
+                    <div class="from_line">
+                        <label for="cpwd">确认密码</label>
+                        <input  id="cpwd"   type="text" placeholder="请输入密码"/>
+                        <div class="err cpwd">两次密码输入不一致</div>
+                    </div>
+                    <div class="from_line">
+                        <label for="email">邮箱</label>
+                        <input  id="email"   type="text" placeholder="请输入邮箱地址"/>
+                        <div class="err email">邮箱不能为空</div>
+                    </div>
+                    <div class="from_line">
+                        <label for="phone">手机号码</label>
+                        <input  id="phone"   type="text" placeholder="请输入电话号码"/>
+                        <div class="err phone">电话号码不能为空</div>
+                    </div>
+                    <div class="from_line">
+                       <span id="btn"> 注册</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/register.js"></script>
+</body>
+</html>

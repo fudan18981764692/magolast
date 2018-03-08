@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<!--登录头部-->
+<div class="login-header">
+    <a href="#">
+        <img src="img/logo.gif" alt="">
+    </a>
+    <span></span>
+    <h2>会员登录</h2>
+</div>
+<div class="login-content">
+    <!--左边图片-->
+
+    <a href="#">
+        <img src="img/lg.jpg" alt="">
+    </a>
+    <!--登录框-->
+    <div class="log-con-r">
+        <div class="login">
+            <ul class="log-nav">
+                <li class="on">
+                    会员登录
+                    <span></span>
+                </li>
+                <li >
+                    合作卡登录
+                    <span></span>
+                </li>
+            </ul>
+            <div class="clear"></div>
+            <!--会员登录-->
+            <div class="content ">
+
+                <div class="form_line">
+                    <label for="uname">登录名</label>
+                    <input type="text" placeholder="手机  /会籍卡号"
+                           name="loginId1" id="uname" class="uname">
+                    <br>
+                    <div class="log-err hide un">登录名3-8位数字！</div>
+                </div>
+                <div class="form_line">
+                    <label for="upwd">密码</label>
+                    <input type="password"
+                           name="loginId2" id="upwd" class="upwd">
+                    <br><br><br>
+                    <div class="log-err hide up">密码格式不正确,请检查！</div>
+                </div>
+                                         <div class="form_line  yan">
+                                             <label for="code"  >验证码</label>
+                                             <input type="text"
+                                                    name="verifyCode" id="code">
+
+                                             <img src="data/00_yzm.php" title="换下一张" id="yzm"/>
+                                             <div class="log-err">请输入验证码</div>
+
+                                         </div>
+
+                <div class="auto-login">
+                    <input type="checkbox" checked="checked"
+                           name="auto-login" id="auto-login">
+                    <label >自动登录(60天内有效)</label>
+                    <span>忘记密码?</span>
+                </div>
+                <button class="btn">登录</button>
+
+            </div>
+            <!--合作卡登录-->
+            <!-- <div class="content"></div> -->
+
+
+            <div class="other">
+                还不是芒果会员？
+                <span><a href="#">免费注册</a></span>
+            </div>
+            <div class="other ms">
+
+                您还可以使用以下方式登录：
+                <a href="#">qq</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>

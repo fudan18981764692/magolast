@@ -1,0 +1,1 @@
+var Url = {scriptBase: "http://webres.mangocity.com/web", intfaceBase: ""};
